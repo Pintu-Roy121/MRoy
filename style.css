@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+    background: rgb(224, 223, 223);
+}
+.login-form{
+    width: 350px;
+    height: 550px;
+    padding-top: 30px;
+    background: rgb(218, 216, 216);
+    border-radius: 30px;
+    box-shadow: 5px 5px 15px rgb(165, 162, 162),
+                -5px -5px 15px white;
+}
+.logo{
+    background: url(image/logo.png);
+    height: 80px;
+    width: 80px;
+    margin: 0 auto;
+    border-radius: 50%;
+    box-shadow: 5px 5px 15px rgb(165, 162, 162),
+                -5px -5px 20px white;
+    border: 1px solid gray;
+}
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 15px;
+    letter-spacing: .3px;
+    color: rgb(97, 96, 96);
+}
+.sub-title{
+    text-align: center;
+    padding-top: 5px;
+    color: rgb(97, 96, 96);
+    font-weight: bold;
+    
+}
+.fields{
+    width: 100%;
+    padding: 0px 20px 0 20px;
+}
+ input{
+    font-size: 15px;
+    border: none;
+    outline: none;
+    background: none;
+    padding: 20px 10px 20px 5px;
+}
+.fields .password{
+    margin-top: 25px;
+}
+.username, .password{
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: inset 5px 5px 15px rgb(165, 162, 162),
+               inset -5px -5px 20px white;
+}
+.fields svg{
+    height: 22px;
+    margin: 0px 5px -7px 25px;
+}
+.fields button{
+    margin-top: 25px;
+}
+.signin-button{
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: rgb(65, 185, 65);
+    width: 100%;
+    height: 50px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgb(131, 130, 130),
+    -5px -5px 20px rgb(253, 253, 253);
+    color: white;
+    font-size: 15px;
+    
+}
+.signin-button:hover{
+    background: rgb(28, 126, 28);
+    transition: 0.75s;
+}
+.signin-button:hover:active{
+    background: rgb(28, 80, 28);
+}
+.link{
+    padding-top: 35px;
+    text-align: center;
+}
+.link a{
+    text-decoration: none;
+    color: gray;
+    font-size: 15px;
+}
